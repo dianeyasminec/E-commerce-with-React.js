@@ -17,7 +17,10 @@ export default function Store() {
   <div className="row">
     {data.products.map((item, index)=>{
       return (
-      <Cards img={item.img} title={item.title} description={item.descrip} price={item.price} item={item}key={index}/>
+      <Cards img={item.img} 
+      title={item.title} 
+      description={item.descrip} 
+      price={item.price} item={item}key={index}/>
       )
     })}
     

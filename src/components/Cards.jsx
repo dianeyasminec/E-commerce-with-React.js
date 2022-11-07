@@ -14,9 +14,9 @@ export default function Cards(props) {
   
 
 <div className='col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mb-4'>
-<div className='card h-100 shadow rounded'>
+<div className='card h-70 shadow rounded'>
    
-<img src={img} alt='bio soap' className='card-img-top img-fluid'/>
+<img src={img} alt='bio soap' className='card-img-top img-fluid imgSoap'/>
 <div className='card-body'>
   <div className='d-flex justify-content-between '>
 <h3 className='card-title lead' >{title}</h3>
