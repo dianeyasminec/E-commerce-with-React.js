@@ -5,20 +5,3 @@ body{
     width:700px;
     height:auto;
   }
-  /* Styles for desktop screens */
-@media only screen and (min-width: 768px) {
- 
-}
-
-/* Styles for tablet screens */
-@media only screen and (max-width: 767px) and (min-width: 480px) {
-  .homepage-image {
-    max-width: 100%; 
-  }
-  
-}
-
-/* Styles for mobile screens */
-@media only screen and (max-width: 479px) {
- 
-}
