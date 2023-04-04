@@ -4,10 +4,11 @@ import {Link, Outlet} from 'react-router-dom'
 export default function Layout() {
   return (
     <>
-      <Navbar sticky="top" expand="xl" bg="dark" variant="dark">
+      <Navbar sticky="top" expand="xl" bg="dark" variant="dark" className='lead'>
         <Container fluid>
-          <Navbar.Brand > Anitta's Shop</Navbar.Brand>
-         
+          <Navbar.Brand > 
+            Nourish & Nature
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

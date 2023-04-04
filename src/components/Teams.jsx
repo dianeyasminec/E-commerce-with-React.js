@@ -20,9 +20,11 @@ export default function Teams() {
       className="img-fluid rounded mx-auto d-block py-5"
       src={imgFive} alt='display of soap making on table'/>
     </p>
-    <blockquote className="blockquote text-light">
+    <blockquote className="blockquote text">
                <p className="mb-0">
-                Beauty is not just skin deep. It starts with how we nourish ourselves, both inside and out
+                ~ Beauty is not just skin deep. 
+                It starts with how we nourish ourselves, 
+                both inside and out ~
                 </p>
             </blockquote>
     </div>
