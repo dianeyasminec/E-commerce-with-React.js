@@ -20,12 +20,6 @@ export default function Layout() {
               <Nav.Link as={Link} to="teams">Teams</Nav.Link>
             </Nav>
             <Navbar.Text>
-            <blockquote className="blockquote text-light">
-               <p className="mb-0">
-                Beauty is not just skin deep. It starts with how we nourish ourselves, both inside and out
-                </p>
-            </blockquote>
-
             </Navbar.Text>
             {/* <Form className="d-flex mx-5 my-2 my-lg-0">
               <Form.Control
