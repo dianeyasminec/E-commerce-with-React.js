@@ -38,10 +38,11 @@ export default function Cart() {
   <td> ${item.price}</td>
   <td> Quantity: {item.quantity}</td>
   <td>
-    <Button onClick={() => updateItemQuantity(item.id, item.quantity - 1)} variant="outline-dark ms-1">-</Button>
-    <Button onClick={() => updateItemQuantity(item.id, item.quantity + 1)} variant="outline-dark ms-1">+</Button>
-    <Button onClick={() => removeItem(item.id)} variant="outline-danger ms-5">Remove Item</Button>
-  </td>
+  <Button onClick={() => updateItemQuantity(item.id, item.quantity - 1)} variant="outline-dark ms-1">-</Button>
+  <Button onClick={() => updateItemQuantity(item.id, item.quantity + 1)} variant="outline-dark ms-1">+</Button>
+  <Button onClick={() => removeItem(item.id)} variant="outline-danger ms-1 ms-md-5 mt-2 mt-md-0">Remove Item</Button>
+</td>
+
 </tr>
 
                 )
