@@ -20,11 +20,14 @@ export default function Layout() {
               <Nav.Link as={Link} to="teams">Teams</Nav.Link>
             </Nav>
             <Navbar.Text>
-              <p className="text-light">
-                Everything has beauty, but not everyone sees it
-              </p>
+            <blockquote className="blockquote text-light">
+               <p className="mb-0">
+                Beauty is not just skin deep. It starts with how we nourish ourselves, both inside and out
+                </p>
+            </blockquote>
+
             </Navbar.Text>
-            <Form className="d-flex mx-5 my-2 my-lg-0">
+            {/* <Form className="d-flex mx-5 my-2 my-lg-0">
               <Form.Control
                 type="search"
                 placeholder="Search"
@@ -32,7 +35,7 @@ export default function Layout() {
                 aria-label="Search"
               />
               <Button variant="outline-secondary">Search</Button>
-            </Form>
+            </Form> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
